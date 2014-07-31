@@ -21,6 +21,7 @@
 		55F86F7C198A5C180079D2E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F86F5E198A5C170079D2E9 /* UIKit.framework */; };
 		55F86F84198A5C180079D2E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55F86F82198A5C180079D2E9 /* InfoPlist.strings */; };
 		55F86F86198A5C180079D2E9 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F86F85198A5C180079D2E9 /* Git_TestTests.m */; };
+		55F86F91198A61D80079D2E9 /* GTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F86F90198A61D80079D2E9 /* GTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		55F86F81198A5C180079D2E9 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		55F86F83198A5C180079D2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55F86F85198A5C180079D2E9 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		55F86F8F198A61D80079D2E9 /* GTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTest.h; sourceTree = "<group>"; };
+		55F86F90198A61D80079D2E9 /* GTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				55F86F6C198A5C170079D2E9 /* Main.storyboard */,
 				55F86F6F198A5C170079D2E9 /* GTViewController.h */,
 				55F86F70198A5C170079D2E9 /* GTViewController.m */,
+				55F86F8F198A61D80079D2E9 /* GTTest.h */,
+				55F86F90198A61D80079D2E9 /* GTTest.m */,
 				55F86F72198A5C170079D2E9 /* Images.xcassets */,
 				55F86F61198A5C170079D2E9 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				55F86F67198A5C170079D2E9 /* main.m in Sources */,
 				55F86F71198A5C170079D2E9 /* GTViewController.m in Sources */,
+				55F86F91198A61D80079D2E9 /* GTTest.m in Sources */,
 				55F86F6B198A5C170079D2E9 /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
